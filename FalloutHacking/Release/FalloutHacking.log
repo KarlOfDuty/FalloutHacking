@@ -1,0 +1,61 @@
+﻿  FileManager.cpp
+c:\users\karl\google drive\kurser\dv1537\fallouthacking\fallouthacking\FileManager.h(24): warning C4091: 'static ': ignored on left of 'FileManager' when no variable is declared
+  HackingHandler.cpp
+c:\users\karl\google drive\kurser\dv1537\fallouthacking\fallouthacking\FileManager.h(24): warning C4091: 'static ': ignored on left of 'FileManager' when no variable is declared
+  Main.cpp
+c:\users\karl\google drive\kurser\dv1537\fallouthacking\fallouthacking\FileManager.h(24): warning C4091: 'static ': ignored on left of 'FileManager' when no variable is declared
+c:\users\karl\google drive\kurser\dv1537\fallouthacking\fallouthacking\MouseControl.h(21): warning C4091: 'static ': ignored on left of 'MouseControl' when no variable is declared
+Main.cpp(563): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Main.cpp(566): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Main.cpp(590): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Main.cpp(768): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+Main.cpp(773): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+Main.cpp(779): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+Main.cpp(784): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+Main.cpp(789): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+Main.cpp(794): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  MouseControl.cpp
+c:\users\karl\google drive\kurser\dv1537\fallouthacking\fallouthacking\FileManager.h(24): warning C4091: 'static ': ignored on left of 'FileManager' when no variable is declared
+c:\users\karl\google drive\kurser\dv1537\fallouthacking\fallouthacking\MouseControl.h(21): warning C4091: 'static ': ignored on left of 'MouseControl' when no variable is declared
+MouseControl.cpp(89): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(94): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(107): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(112): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(125): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(130): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(147): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(152): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(181): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(182): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(206): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(207): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(224): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(228): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(248): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(249): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(269): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(270): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(303): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(307): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(319): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(323): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(335): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(339): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(354): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(358): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(380): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(381): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(403): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(404): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(422): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(423): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(441): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(445): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(460): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+MouseControl.cpp(461): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Generating code
+  6 of 317 functions ( 1.9%) were compiled, the rest were copied from previous compilation.
+    2 functions were new in current compilation
+    34 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  FalloutHacking.vcxproj -> C:\Users\Karl\Google Drive\Kurser\DV1537\FalloutHacking\Release\FalloutHacking.exe
