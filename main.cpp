@@ -794,27 +794,28 @@ void drawOutput(RenderWindow &window, HackingHandler &hackingHandler, const Font
 	attemptsRestored.setPosition(x, y -25);
 
 	//If the player is hovering over a word or symbol, it's displayed below the rest of the output
-	if (MouseControl::mouseDetection(window, hackingHandler) > -1)
+    int index = MouseControl::mouseDetection(window, hackingHandler);
+	if (index > -1)
 	{
-		hoverWord.setString(">" + hackingHandler.getElements()[MouseControl::mouseDetection(window, hackingHandler)]->getString());
-		if (tempWord = dynamic_cast<Word *>(hackingHandler.getElements()[MouseControl::mouseDetection(window, hackingHandler)]))
+		hoverWord.setString(">" + hackingHandler.getElements()[index]->getString());
+		if (tempWord = dynamic_cast<Word *>(hackingHandler.getElements()[index]))
 		{
 			if (tempWord->isRemoved() == true)
 			{
 				hoverWord.setString("> .");
 			}
 		}
-		else if (tempSymbol = dynamic_cast<Symbol*>(hackingHandler.getElements()[MouseControl::mouseDetection(window, hackingHandler)]))
+		else if (tempSymbol = dynamic_cast<Symbol*>(hackingHandler.getElements()[index]))
 		{
 			string temp = "";
-			int tempInt = hackingHandler.checkSymbol(MouseControl::mouseDetection(window, hackingHandler), hackingHandler.getRowLength() - (MouseControl::mouseDetection(window, hackingHandler) % hackingHandler.getRowLength()));
+			int tempInt = hackingHandler.checkSymbol(index, hackingHandler.getRowLength() - (index % hackingHandler.getRowLength()));
 			if (tempInt < 1)
 			{
-				hoverWord.setString(">" + hackingHandler.getElements()[MouseControl::mouseDetection(window, hackingHandler)]->getString());
+				hoverWord.setString(">" + hackingHandler.getElements()[index]->getString());
 			}
 			else
 			{
-				for (int i = MouseControl::mouseDetection(window, hackingHandler); i <= tempInt; i++)
+				for (int i = index; i <= tempInt; i++)
 				{
 					temp.append(hackingHandler.getElements()[i]->getString());
 				}
