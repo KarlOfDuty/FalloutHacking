@@ -4,7 +4,6 @@ My first university project, a simple SFML implementation of the hacking minigam
 I am uploading this almost 10 years after I made it, so I had to do some refactoring before I got it to build again.
 
 # Usage
-On linux you will need to install SFML first.
 
 1. Download the [release](https://github.com/KarlOfDuty/FalloutHacking/releases) for your operating system.
 2. Extract the archive.
